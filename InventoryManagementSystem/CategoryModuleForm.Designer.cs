@@ -70,12 +70,12 @@ namespace InventoryManagementSystem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(5, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 25);
+            this.label1.Size = new System.Drawing.Size(102, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Category";
             // 
@@ -84,7 +84,7 @@ namespace InventoryManagementSystem
             this.lblCatId.AutoSize = true;
             this.lblCatId.Location = new System.Drawing.Point(40, 141);
             this.lblCatId.Name = "lblCatId";
-            this.lblCatId.Size = new System.Drawing.Size(80, 18);
+            this.lblCatId.Size = new System.Drawing.Size(96, 20);
             this.lblCatId.TabIndex = 35;
             this.lblCatId.Text = "category Id";
             this.lblCatId.Visible = false;
@@ -135,7 +135,7 @@ namespace InventoryManagementSystem
             // 
             this.txtCatName.Location = new System.Drawing.Point(153, 85);
             this.txtCatName.Name = "txtCatName";
-            this.txtCatName.Size = new System.Drawing.Size(396, 24);
+            this.txtCatName.Size = new System.Drawing.Size(396, 26);
             this.txtCatName.TabIndex = 29;
             this.txtCatName.TextChanged += new System.EventHandler(this.txtCatName_TextChanged);
             // 
@@ -144,13 +144,13 @@ namespace InventoryManagementSystem
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(18, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 18);
+            this.label2.Size = new System.Drawing.Size(139, 20);
             this.label2.TabIndex = 28;
             this.label2.Text = "Category Name : ";
             // 
             // CategoryModuleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(602, 182);
             this.Controls.Add(this.panel1);
@@ -160,13 +160,12 @@ namespace InventoryManagementSystem
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtCatName);
             this.Controls.Add(this.label2);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "CategoryModuleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CategoryModuleForm";
-            this.Load += new System.EventHandler(this.CategoryModuleForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).EndInit();

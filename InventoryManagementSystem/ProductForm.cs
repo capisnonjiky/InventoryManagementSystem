@@ -13,7 +13,7 @@ namespace InventoryManagementSystem
 {
     public partial class ProductForm : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Yeisha Mae\Downloads\InventoryManagementSystem-master\InventoryManagementSystem-master\Tutorial Database\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Sonje\Downloads\InventoryManagementSystem\InventoryManagementSystem\Tutorial Database\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
         SqlCommand cm = new SqlCommand();
         SqlDataReader dr;
         private MainForm mainFormRef;
@@ -93,7 +93,7 @@ namespace InventoryManagementSystem
             LoginForm login = new LoginForm();
             login.Show();
         }
-
+        /*den*/
         private void backBtn_Click(object sender, EventArgs e)
         {
             this.Hide();

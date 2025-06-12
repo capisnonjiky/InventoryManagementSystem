@@ -75,15 +75,15 @@ namespace InventoryManagementSystem
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(57, 19);
+            this.label3.Location = new System.Drawing.Point(57, 30);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(229, 48);
+            this.label3.Size = new System.Drawing.Size(324, 23);
             this.label3.TabIndex = 8;
             this.label3.Text = "INVENTORY MANAGEMENT SYSTEM";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox2
             // 
@@ -100,7 +100,7 @@ namespace InventoryManagementSystem
             this.txtName.Location = new System.Drawing.Point(25, 254);
             this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(261, 26);
+            this.txtName.Size = new System.Drawing.Size(261, 27);
             this.txtName.TabIndex = 1;
             // 
             // label1
@@ -109,7 +109,7 @@ namespace InventoryManagementSystem
             this.label1.Location = new System.Drawing.Point(22, 233);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 20);
+            this.label1.Size = new System.Drawing.Size(106, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "User Name:";
             // 
@@ -119,7 +119,7 @@ namespace InventoryManagementSystem
             this.label2.Location = new System.Drawing.Point(22, 300);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.Size = new System.Drawing.Size(98, 21);
             this.label2.TabIndex = 4;
             this.label2.Text = "Password :";
             // 
@@ -128,7 +128,7 @@ namespace InventoryManagementSystem
             this.txtPass.Location = new System.Drawing.Point(25, 321);
             this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(261, 26);
+            this.txtPass.Size = new System.Drawing.Size(261, 27);
             this.txtPass.TabIndex = 3;
             this.txtPass.UseSystemPasswordChar = true;
             // 
@@ -137,7 +137,7 @@ namespace InventoryManagementSystem
             this.btnLogin.BackColor = System.Drawing.Color.Blue;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(28, 370);
             this.btnLogin.Name = "btnLogin";
@@ -160,12 +160,12 @@ namespace InventoryManagementSystem
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
             this.label4.Location = new System.Drawing.Point(130, 193);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 20);
+            this.label4.Size = new System.Drawing.Size(0, 19);
             this.label4.TabIndex = 7;
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -174,7 +174,7 @@ namespace InventoryManagementSystem
             this.checkBoxPass.AutoSize = true;
             this.checkBoxPass.Location = new System.Drawing.Point(149, 441);
             this.checkBoxPass.Name = "checkBoxPass";
-            this.checkBoxPass.Size = new System.Drawing.Size(151, 24);
+            this.checkBoxPass.Size = new System.Drawing.Size(158, 25);
             this.checkBoxPass.TabIndex = 8;
             this.checkBoxPass.Text = "Show Password";
             this.checkBoxPass.UseVisualStyleBackColor = true;
@@ -187,14 +187,14 @@ namespace InventoryManagementSystem
             this.lblClear.Location = new System.Drawing.Point(62, 442);
             this.lblClear.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClear.Name = "lblClear";
-            this.lblClear.Size = new System.Drawing.Size(49, 20);
+            this.lblClear.Size = new System.Drawing.Size(55, 21);
             this.lblClear.TabIndex = 9;
             this.lblClear.Text = "Clear";
             this.lblClear.Click += new System.EventHandler(this.lblClear_Click);
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(320, 550);
@@ -208,7 +208,7 @@ namespace InventoryManagementSystem
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginForm";
@@ -216,6 +216,7 @@ namespace InventoryManagementSystem
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
